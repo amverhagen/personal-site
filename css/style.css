@@ -1,16 +1,16 @@
-.header {
+header {
 	animation: glow 5s infinite linear;
 	text-align: center;
 	margin: 0px;
-	font-size: 75px;
-
+	padding: 20px;
+	font-size: 50px;
 }
 .nixie {
 	color: rgb(25, 187, 213);
 	font-family: Nixie One;
 }
 .pulse { 
-	animation: glow 10s infinite linear;
+	animation: glow 20s infinite linear;
 }
 
 @keyframes glow {
@@ -21,4 +21,6 @@
 
 body {
 	margin :0px;
+	background-image: url("/images/one.svg");
+	background-repeat: repeat;
 }
