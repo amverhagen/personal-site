@@ -1,3 +1,9 @@
+body {
+	margin :0px;
+	background-image: url("/images/one.svg");
+	background-repeat: repeat;
+}
+
 header {
 	animation: glow 5s infinite linear;
 	text-align: center;
@@ -5,22 +11,32 @@ header {
 	padding: 20px;
 	font-size: 50px;
 }
+
+nav {
+	background-color: #12273b;
+}
+
+.nav_link {
+	margin-left: -4px;
+	transition: background-color 0.3s linear;
+	font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+	padding: 20px;}
+
+.nav_link:HOVER {
+	background-color: black;
+}
+
 .nixie {
 	color: rgb(25, 187, 213);
 	font-family: Nixie One;
-}
-.pulse { 
-	animation: glow 20s infinite linear;
 }
 
 @keyframes glow {
 	0% {background-color: #12273b;}
 	50% {background-color: black;}
 	100% {background-color: #12273b;}
-}
-
-body {
-	margin :0px;
-	background-image: url("/images/one.svg");
-	background-repeat: repeat;
 }

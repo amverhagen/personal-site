@@ -1,6 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/" width="20" height="20">
-	
+	<style>
+		rect:hover {
+		opacity: 0.5;
+		}
+	</style>
 		<rect x="0" y="0" width="20" height="20" fill="#12273b" />
 		<text x="10" y="15" fill="rgb(25, 187, 213)" text-anchor="middle">1</text>
 </svg>
